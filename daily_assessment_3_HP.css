@@ -1,0 +1,12 @@
+.paragraph{
+    color: #942807;
+}
+#anchor{
+    text-decoration: none;
+}
+.center{
+    width: 100px;
+    height: 100px;
+    margin-left: 50%;
+    margin-right: 50%; 
+}
