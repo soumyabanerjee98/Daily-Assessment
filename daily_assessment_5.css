@@ -1,0 +1,131 @@
+body{
+    background-color: grey;
+}
+
+.card{
+    background-color: white;
+    border: 5px solid red;
+    border-radius: 10px;
+    box-shadow: 5px 5px purple;
+}
+
+.image{
+    max-height: fit-content;
+    max-width: fit-content;
+}
+
+.header{
+    height: 145px;
+    width: 450px;
+    margin-left: 38%;
+    line-height: 40px;
+    color:rebeccapurple;
+    text-shadow: 2px 2px 2px rebeccapurple;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container{
+    border: 5px solid darkolivegreen;
+    width: 99.51%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.item{
+    color:darkorchid;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px rebeccapurple;
+    text-align: center;
+    padding: 10px;
+    padding-top: 15px;
+    width: 300px;
+    height: 290px;
+    margin: 25px;
+}
+
+.forms{
+    color:darkorchid;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rebeccapurple;
+    text-align: center;
+    padding: 10px;
+}
+
+input[type="button"]{
+    background-color: red;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.foot{
+    background-color: seagreen;
+    border: 5px solid purple;
+    width: 900px;
+    height: 550px;
+    margin: 50px;
+    margin-left: 520px;
+    padding: 15px;
+    line-height: 30px;
+}
+
+.r11{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.r22{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.r1{
+    background-color: yellow;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+}
+
+.r2{
+    background-color: yellow;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    width: 800px;
+    height: 250px;
+    margin: 10px;
+}
+
+.fixed{
+    display: grid;
+    grid-template-columns: 300px 100px;
+    color: maroon;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    border: 5px solid red;
+    background-color: yellowgreen;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px rebeccapurple;
+    width: 400px;
+    height: 100px;
+    margin-left: 780px;
+    margin-top: -200px;
+    padding-top: 20px;
+}

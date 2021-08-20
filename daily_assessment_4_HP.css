@@ -6,7 +6,7 @@ html,body{
 }
 
 .blackbox{
-    font-size:40px; 
+    font-size:35px; 
     color: white;
     font-style: italic; 
     background-color: black;
@@ -36,10 +36,18 @@ html,body{
     position: absolute;
 }
 
+.parent{
+    display: grid;
+    grid-template-columns: 300px;
+    margin-left: 850px;
+}
+
 .table{
     text-align: center;
     background-color: aqua;
     border: 2px solid green;
     border-radius: 15px;
     color: royalblue;
+    margin: 20px;
+    padding: 5px;
 }
