@@ -39,7 +39,7 @@ html,body{
 .parent{
     display: grid;
     grid-template-columns: 300px;
-    margin-left: 850px;
+    margin-left: 750px;
 }
 
 .table{
