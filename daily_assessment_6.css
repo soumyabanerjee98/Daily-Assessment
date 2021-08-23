@@ -1,0 +1,141 @@
+a{
+    text-decoration: none;
+}
+
+.head1{
+    background: linear-gradient(90deg, red, green 500px, yellow);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+.head2{
+    background: linear-gradient(90deg, red, orange, yellow, orange, red);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline red;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.nav{
+    background-color: #94dcf8;
+    border: 4px solid orangered;
+    border-radius: 15px;
+    text-align: center;
+    width: 30vw;
+    margin-left: 33vw;
+    margin-top: 25px;
+}
+
+.cont1{
+    background-color: #10f5bc;
+    border: 4px solid green;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.cont2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: radial-gradient(blue, #1e90ff, #2ed573);
+    border: 3px solid green;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.f1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.f2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.c{
+    background-color: aqua;
+    border: 2px solid green;
+    border-radius: 5px;
+    width: 600px;
+    padding: 3px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.c1{
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius: 20px;
+    color: maroon;
+    font-weight: bold;
+    text-decoration: underline maroon;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 50px;
+}
+
+.ad{
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    grid-template-areas: 'a a a a a a a' 'b b c c d d e' 'f f f f f f e';
+}
+
+.ad>div{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.item1{
+    grid-area: a;
+    background-color: #f34a34;
+}
+
+.item2{
+    grid-area: b;
+    background-color: #1eff7c;
+}
+
+.item3{
+    grid-area: c;
+    background-color: #47bff7;
+}
+
+.item4{
+    grid-area: d;
+    background-color: #598af5;
+}
+
+.item5{
+    grid-area: e;
+    background-color: #3d464b;
+}
+
+.item6{
+    grid-area: f;
+    background-color: #ffc933;
+}
+
+.foot{
+    background-color: mediumaquamarine;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
