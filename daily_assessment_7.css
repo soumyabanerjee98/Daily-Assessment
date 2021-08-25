@@ -1,0 +1,185 @@
+body{
+    font-size: 30px;
+    text-align: center;
+}
+.tabs{
+    width: 700px;
+    margin-top: 100px;
+    margin-left: 30vw;
+}
+.tabs1{
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 42vw;
+}
+.f{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.blueskew{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #2baaff;
+    animation-name: skewx;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.greyskew{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: gray;
+    animation-name: skewy;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.bluerotate{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #2baaff;
+    animation-name: rot1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.rotx{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #1e9aec;
+    border: 2px solid #01568e;
+    animation-name: rotX;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.roty{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #ec0076;
+    border: 2px solid #6d0149;
+    animation-name: rotY;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.rotz{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #3afa5a;
+    border: 2px solid #026829;
+    animation-name: rotZ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.gb{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #3afa5a;
+}
+.width{
+    transition: width 2s;
+}
+.width:hover{
+    width: 300px;
+}
+.width_height{
+    transition: width 2s, height 4s;
+}
+.width_height:hover{
+    width: 300px;
+    height: 300px;
+}
+.linear{
+    transition:width 2s linear;
+}
+.linear:hover{
+    width: 300px;
+}
+.ease{
+    transition: width 2s ease;
+}
+.ease:hover{
+    width: 300px;
+}
+.ease_in{
+    transition: width 2s ease-in;
+}
+.ease_in:hover{
+    width: 300px;
+}
+.ease_out{
+    transition: width 2s ease-out;
+}
+.ease_out:hover{
+    width: 300px;
+}
+.ease_in_out{
+    transition: width 2s ease-in-out;
+}
+.ease_in_out:hover{
+    width: 300px;
+}
+
+@keyframes skewx{
+    25% {
+        transform: skewX(30deg);
+    }
+    75%{
+        transform: skewX(-30deg);
+    }
+    100%{
+        transform: skewX(0deg);
+    }
+}
+@keyframes skewy{
+    25% {
+        transform: skewY(30deg);
+    }
+    75%{
+        transform: skewY(-30deg);
+    }
+    100%{
+        transform: skewY(0deg);
+    }
+}
+@keyframes rot1{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotX{
+    50%{
+        transform: rotateX(60deg);
+    }
+    100%{
+        transform: rotateX(0deg);
+    }
+}
+@keyframes rotY{
+    50%{
+        transform: rotateY(60deg);
+    }
+    100%{
+        transform: rotateY(0deg);
+    }
+}
+@keyframes rotZ{
+    50%{
+        transform: rotate(120deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
